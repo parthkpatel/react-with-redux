@@ -17,7 +17,7 @@ export const signIn = (userId) => {
   };
 };
 
-export const signOut = (userId) => {
+export const signOut = () => {
   return {
     type: SIGN_OUT,
   };
